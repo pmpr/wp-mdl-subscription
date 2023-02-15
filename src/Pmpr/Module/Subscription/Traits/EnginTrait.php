@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             63ed29f00e00e             |
+    |             63ed49368ca83             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Subscription\Traits; use Pmpr\Common\Foundation\Decorator\DecoratorUser; use Pmpr\Common\Foundation\Manipulate\Type\ManipulateString; use Pmpr\Module\Subscription\Engine; trait EnginTrait { protected ?Engine $engine = null; public function uykissogmuaaocsg() : Engine { if ($this->engine) { goto osuscoaaomwcqkew; } $this->engine = Engine::symcgieuakksimmu(); osuscoaaomwcqkew: return $this->engine; } public function oimyeguwqswysoak(string $iiumgusgeekimkya, string $ggauoeuaesiymgee = '', $ycoeoaakqyskgykq = null) : string { $ksaameoqigiaoigg = ''; $uamcoiueqaamsqma = $this->weysguygiseoukqw($iiumgusgeekimkya, $ggauoeuaesiymgee); if (!$uamcoiueqaamsqma) { goto ussceseaimqywuiy; } if ($ycoeoaakqyskgykq) { goto ciucewqgyoiouesq; } $ycoeoaakqyskgykq = DecoratorUser::iccqaqcagacsuukg(); ciucewqgyoiouesq: if (!$ycoeoaakqyskgykq) { goto mkomygccqkmkumsi; } $waoskoekyaciaiwm = $this->uykissogmuaaocsg()->ysyuyiwueaissoaq($ycoeoaakqyskgykq, true); if (!($waoskoekyaciaiwm && isset($waoskoekyaciaiwm[self::quumookoiuysuyuw], $waoskoekyaciaiwm[self::uikygkewwaiowmwe]))) { goto cgmgqucewwssmicq; } $ksaameoqigiaoigg = ManipulateString::wqmqoqkcaoeiomoo($uamcoiueqaamsqma, [self::sicsskuogummkkgi => $waoskoekyaciaiwm[self::quumookoiuysuyuw], self::gyusqcgoiwogaaoy => $this->eciukqcoqmyacwow($waoskoekyaciaiwm[self::uikygkewwaiowmwe])]); cgmgqucewwssmicq: mkomygccqkmkumsi: ussceseaimqywuiy: return $ksaameoqigiaoigg; } }
