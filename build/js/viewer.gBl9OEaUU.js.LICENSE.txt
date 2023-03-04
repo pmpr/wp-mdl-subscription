@@ -1,4 +1,4 @@
-/*! ../scss/viewer.scss */
+/*! ../../scss/viewer.scss */
 
 /*!********************************!*\
   !*** ./asset/scss/viewer.scss ***!
