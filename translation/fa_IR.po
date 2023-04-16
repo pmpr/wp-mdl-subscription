@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Subscription\n"
-"POT-Creation-Date: 2023-04-16 10:44+0330\n"
-"PO-Revision-Date: 2023-04-16 10:44+0330\n"
+"POT-Creation-Date: 2023-04-16 11:36+0330\n"
+"PO-Revision-Date: 2023-04-16 11:36+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -81,7 +81,7 @@ msgstr "قیمت گذاری"
 #: src/Pmpr/Module/Subscription/Frontend/Page/Viewer.php:82
 #: src/Pmpr/Module/Subscription/Setting.php:402
 #: src/Pmpr/Module/Subscription/Setting.php:407
-#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:122
+#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:123
 #: src/Pmpr/Module/Subscription/Woocommerce/Product.php:175
 msgid "View"
 msgstr "مشاهده"
@@ -633,7 +633,7 @@ msgstr "مقدار"
 #: src/Pmpr/Module/Subscription/Setting.php:195
 #: src/Pmpr/Module/Subscription/Setting.php:214
 #: src/Pmpr/Module/Subscription/Woocommerce/Account.php:61
-#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:116
+#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:117
 msgid "Library"
 msgstr "کتابخانه"
 
@@ -1018,8 +1018,8 @@ msgstr "برای حذف آیتم از کتابخانه شما ابتدا بای�
 
 #: src/Pmpr/Module/Subscription/Woocommerce/Account.php:68
 #, php-format
-msgid "The %s subscription is active for you and is valid until %s."
-msgstr "اشتراک %s برای شما فعال است و تا تاریخ %s معتبر است."
+msgid "The {%s} subscription is active for you and is valid until {%s}."
+msgstr "اشتراک {%s} برای شما فعال است و تا {%s} معتبر است."
 
 #: src/Pmpr/Module/Subscription/Woocommerce/Account.php:73
 #, php-format
@@ -1030,20 +1030,20 @@ msgstr "شما هیچ اشتراک فعالی ندارید، %s."
 msgid "click here to see plans"
 msgstr "برای مشاهده پلن‌ها اینجا را کلیک کنید"
 
-#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:94
+#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:95
 #, php-format
 msgid "Subscription: %s</br>Expire Date: %s"
 msgstr "اشتراک:‌%s <br> تاریخ اعتبار: %s"
 
-#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:102
+#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:103
 msgid "You do not have an active subscription"
 msgstr "شما هیچ اشتراک فعالی ندارید"
 
-#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:120
+#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:121
 msgid "No item has been added yet."
 msgstr "هنوز آیتمی اضافه نشده است."
 
-#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:123
+#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:124
 msgid "Related to"
 msgstr "مرتبط با"
 
