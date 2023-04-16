@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             643a537a4a8ba             |
+    |             643ba3594b818             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Subscription\Frontend; use Pmpr\Module\Subscription\Container; abstract class Common extends Container { }
