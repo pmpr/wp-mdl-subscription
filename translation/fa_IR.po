@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Subscription\n"
-"POT-Creation-Date: 2023-04-16 11:36+0330\n"
-"PO-Revision-Date: 2023-04-16 11:36+0330\n"
+"POT-Creation-Date: 2023-04-22 14:14+0330\n"
+"PO-Revision-Date: 2023-04-22 14:15+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -57,19 +57,19 @@ msgstr "متاسفانه شما دسترسی لازم برای مشاهده ای
 msgid "Attachment"
 msgstr "پیوست"
 
-#: src/Pmpr/Module/Subscription/Container.php:160
+#: src/Pmpr/Module/Subscription/Container.php:172
 msgid "Login"
 msgstr "ورود"
 
-#: src/Pmpr/Module/Subscription/Container.php:170
+#: src/Pmpr/Module/Subscription/Container.php:181
 msgid "Register"
 msgstr "ثبت نام"
 
-#: src/Pmpr/Module/Subscription/Container.php:178
+#: src/Pmpr/Module/Subscription/Container.php:189
 msgid "View Pricing"
 msgstr "مشاهده قیمت"
 
-#: src/Pmpr/Module/Subscription/Container.php:198
+#: src/Pmpr/Module/Subscription/Container.php:209
 msgid "You are unable to view the requested content"
 msgstr "شما قادر به مشاهده محتوای درخواستی نیستید"
 
@@ -456,7 +456,6 @@ msgid "Buy Now!"
 msgstr "الان بخرید!"
 
 #: src/Pmpr/Module/Subscription/Model/Subscription.php:23
-#: src/Pmpr/Module/Subscription/Subscription.php:19
 msgid "Subscription"
 msgstr "اشتراک"
 
@@ -840,8 +839,8 @@ msgstr "پیام تشکر"
 #: src/Pmpr/Module/Subscription/Setting.php:367
 #, php-format
 msgid ""
-"%1$s subscription has been activated for you until %2$s.<br>From now until %2$s, "
-"you will benefit from the following features..<br>%3$s"
+"{%1$s} subscription has been activated for you until {%2$s}.<br>From now until "
+"{%2$s}, you will benefit from the following features..<br>{%3$s}"
 msgstr ""
 "اشتراک %1$s تا تاریخ %2$s برای شما فعال گردید.<br>از این پس تا تاریخ %2$s از "
 "ویژگی‌های زیر بهرمند خواهید شد.<br>%3$s"
@@ -923,19 +922,6 @@ msgstr "شما می‌توایند متن دکمه دانلود مرتبط با 
 msgid "Cart"
 msgstr "سبد خرید"
 
-#: src/Pmpr/Module/Subscription/Setting.php:469
-msgid "Not Logged In Message"
-msgstr "کاربران لاگین نشده"
-
-#: src/Pmpr/Module/Subscription/Setting.php:470
-msgid "You need login or create an account first."
-msgstr "ابتدا وارد شوید و یا یک حساب کاربری بسازید."
-
-#: src/Pmpr/Module/Subscription/Setting.php:471
-msgid "This message show when user not logged in."
-msgstr ""
-"این پیام به کاربرانی که ثبت‌نام نکرده‌اند یا لاگین نکرده‌اند نشان داده‌ خواهد شد."
-
 #: src/Pmpr/Module/Subscription/Setting.php:476
 msgid "Inactive Plan(Not available for purchase) Message"
 msgstr "پیام پلن غیرفعال (غیر قابل خرید)"
@@ -991,6 +977,10 @@ msgstr "دکمه %s"
 #, php-format
 msgid "User can %s, if you enable this option."
 msgstr "با فعال کردن این گزینه، کاربرقادر به %s خواهد بود."
+
+#: src/Pmpr/Module/Subscription/Subscription.php:19
+msgid "Content Subscription"
+msgstr "اشتراک محتوا"
 
 #: src/Pmpr/Module/Subscription/Traits/LibraryTrait.php:145
 msgid "This item already added to your library."
@@ -1074,6 +1064,28 @@ msgstr "کاربر با موفقیت در %s مشترک شد."
 #: src/Pmpr/Module/Subscription/Woocommerce/Order.php:72
 msgid "User already subscribed."
 msgstr "کاربر پیش از این مشترک شده است."
+
+#: src/Pmpr/Module/Subscription/Woocommerce/Setting.php:50
+msgid ""
+"Carts containing content subscription plans cannot be paid for by guest users."
+msgstr ""
+"سبد‌های خرید حاوی پلن‌های اشتراک محتوا،‌ قابل پرداخت توسط کاربران مهمان نیستند."
+
+#~ msgid ""
+#~ "Because the content subscription module is active, it is not possible to "
+#~ "activate this option."
+#~ msgstr ""
+#~ "به دلیل فعال بودن ماژول اشتراک محتوا،‌امکان فعال کردن این گزینه وجود ندارد."
+
+#~ msgid "Not Logged In Message"
+#~ msgstr "کاربران لاگین نشده"
+
+#~ msgid "You need login or create an account first."
+#~ msgstr "ابتدا وارد شوید و یا یک حساب کاربری بسازید."
+
+#~ msgid "This message show when user not logged in."
+#~ msgstr ""
+#~ "این پیام به کاربرانی که ثبت‌نام نکرده‌اند یا لاگین نکرده‌اند نشان داده‌ خواهد شد."
 
 #~ msgid "Shop Order"
 #~ msgstr "سفارش"
