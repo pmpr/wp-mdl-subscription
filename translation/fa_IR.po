@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Subscription\n"
-"POT-Creation-Date: 2023-04-22 14:14+0330\n"
-"PO-Revision-Date: 2023-04-22 14:15+0330\n"
+"POT-Creation-Date: 2023-05-28 09:40+0330\n"
+"PO-Revision-Date: 2023-05-28 09:42+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: index.php\n"
 "X-Source-Language: en\n"
@@ -40,7 +40,7 @@ msgid "Item deleted successfully from your library."
 msgstr "آیتم مورد نظر با موفقیت از کتابخانه شما حذف شد."
 
 #: src/Pmpr/Module/Subscription/Ajax.php:87
-#: src/Pmpr/Module/Subscription/Model/Plan.php:220
+#: src/Pmpr/Module/Subscription/Model/Plan.php:219
 msgid "ID"
 msgstr "شناسه"
 
@@ -57,19 +57,19 @@ msgstr "متاسفانه شما دسترسی لازم برای مشاهده ای
 msgid "Attachment"
 msgstr "پیوست"
 
-#: src/Pmpr/Module/Subscription/Container.php:172
+#: src/Pmpr/Module/Subscription/Container.php:175
 msgid "Login"
 msgstr "ورود"
 
-#: src/Pmpr/Module/Subscription/Container.php:181
+#: src/Pmpr/Module/Subscription/Container.php:184
 msgid "Register"
 msgstr "ثبت نام"
 
-#: src/Pmpr/Module/Subscription/Container.php:189
+#: src/Pmpr/Module/Subscription/Container.php:192
 msgid "View Pricing"
 msgstr "مشاهده قیمت"
 
-#: src/Pmpr/Module/Subscription/Container.php:209
+#: src/Pmpr/Module/Subscription/Container.php:212
 msgid "You are unable to view the requested content"
 msgstr "شما قادر به مشاهده محتوای درخواستی نیستید"
 
@@ -78,46 +78,46 @@ msgstr "شما قادر به مشاهده محتوای درخواستی نیست
 msgid "Pricing"
 msgstr "قیمت گذاری"
 
-#: src/Pmpr/Module/Subscription/Frontend/Page/Viewer.php:82
+#: src/Pmpr/Module/Subscription/Frontend/Page/Viewer.php:27
+#: src/Pmpr/Module/Subscription/Setting.php:271
+msgid "Viewer"
+msgstr "پی‌دی‌اف خوان"
+
+#: src/Pmpr/Module/Subscription/Frontend/Page/Viewer.php:87
 #: src/Pmpr/Module/Subscription/Setting.php:402
 #: src/Pmpr/Module/Subscription/Setting.php:407
-#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:123
+#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:127
 #: src/Pmpr/Module/Subscription/Woocommerce/Product.php:175
 msgid "View"
 msgstr "مشاهده"
 
-#: src/Pmpr/Module/Subscription/Frontend/Page/Viewer.php:83
+#: src/Pmpr/Module/Subscription/Frontend/Page/Viewer.php:88
 msgid "Close"
 msgstr "بستن"
 
-#: src/Pmpr/Module/Subscription/Frontend/Page/Viewer.php:84
+#: src/Pmpr/Module/Subscription/Frontend/Page/Viewer.php:89
 msgid "Cancel"
 msgstr "انصراف"
 
-#: src/Pmpr/Module/Subscription/Frontend/Page/Viewer.php:85
+#: src/Pmpr/Module/Subscription/Frontend/Page/Viewer.php:90
 msgid "Viewing"
 msgstr "در حال مشاهده"
 
-#: src/Pmpr/Module/Subscription/Frontend/Page/Viewer.php:87
+#: src/Pmpr/Module/Subscription/Frontend/Page/Viewer.php:92
 msgid "Are you sure you want add this item to your library?"
 msgstr "آیا مطمئن هستید که می خواهید این مورد را به کتابخانه خود اضافه کنید؟"
 
-#: src/Pmpr/Module/Subscription/Frontend/Page/Viewer.php:88
+#: src/Pmpr/Module/Subscription/Frontend/Page/Viewer.php:93
 msgid "Add to Library"
 msgstr "افزودن به کتابخانه"
 
-#: src/Pmpr/Module/Subscription/Frontend/Page/Viewer.php:91
+#: src/Pmpr/Module/Subscription/Frontend/Page/Viewer.php:96
 msgid "Are you sure you want delete this item from your library?"
 msgstr "آیا مطمئن هستید که می خواهید این مورد را از کتابخانه خود حذف کنید؟"
 
-#: src/Pmpr/Module/Subscription/Frontend/Page/Viewer.php:92
+#: src/Pmpr/Module/Subscription/Frontend/Page/Viewer.php:97
 msgid "Delete from Library"
 msgstr "حذف از کتابخانه"
-
-#: src/Pmpr/Module/Subscription/Frontend/Page/Viewer.php:130
-#: src/Pmpr/Module/Subscription/Setting.php:271
-msgid "Viewer"
-msgstr "پی‌دی‌اف خوان"
 
 #: src/Pmpr/Module/Subscription/Model/Library.php:20
 msgid "Library Items"
@@ -137,92 +137,92 @@ msgstr "کاربر"
 msgid "Post"
 msgstr "نوشته‌"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:30
+#: src/Pmpr/Module/Subscription/Model/Plan.php:31
 msgid "Plans"
 msgstr "پلن‌ها"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:31
+#: src/Pmpr/Module/Subscription/Model/Plan.php:32
 #: src/Pmpr/Module/Subscription/Model/Subscription.php:52
 msgid "Plan"
 msgstr "پلن"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:41
+#: src/Pmpr/Module/Subscription/Model/Plan.php:42
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:45
+#: src/Pmpr/Module/Subscription/Model/Plan.php:46
 msgid "Display Title"
 msgstr "عنوان نمایشی"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:49
+#: src/Pmpr/Module/Subscription/Model/Plan.php:50
 #: src/Pmpr/Module/Subscription/Model/Subscription.php:45
 msgid "Active"
 msgstr "فعال"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:50
+#: src/Pmpr/Module/Subscription/Model/Plan.php:51
 msgid "Inactive"
 msgstr "غیر فعال‌‌"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:51
+#: src/Pmpr/Module/Subscription/Model/Plan.php:52
 #: src/Pmpr/Module/Subscription/Model/Subscription.php:48
 msgid "Status"
 msgstr "وضعیت"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:56
+#: src/Pmpr/Module/Subscription/Model/Plan.php:57
 msgid "Related Product"
 msgstr "محصول مرتبط"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:61
+#: src/Pmpr/Module/Subscription/Model/Plan.php:62
 msgid "Period (Month)"
 msgstr "دوره (ماه)"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:66
+#: src/Pmpr/Module/Subscription/Model/Plan.php:67
 msgid "Priority"
 msgstr "اولویت"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:70
+#: src/Pmpr/Module/Subscription/Model/Plan.php:71
 msgid "Description"
 msgstr "شرح"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:74
+#: src/Pmpr/Module/Subscription/Model/Plan.php:75
 msgid "Rules"
 msgstr "قواعد"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:78
+#: src/Pmpr/Module/Subscription/Model/Plan.php:79
 msgid "Features"
 msgstr "ویژگی‌ها"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:82
+#: src/Pmpr/Module/Subscription/Model/Plan.php:83
 #: src/Pmpr/Module/Subscription/Model/Subscription.php:22
 msgid "Subscriptions"
 msgstr "اشتراک‌ها"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:107
+#: src/Pmpr/Module/Subscription/Model/Plan.php:108
 msgid "Display on admin panel area."
 msgstr "نمایش در قسمت پنل مدیریت."
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:111
+#: src/Pmpr/Module/Subscription/Model/Plan.php:112
 msgid "Display Title (Frontend)"
 msgstr "عنوان نمایشی (قسمت نمایشی)"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:112
+#: src/Pmpr/Module/Subscription/Model/Plan.php:113
 msgid "Leave empty if you want use title as display title."
 msgstr "اگر می‌خواهید از عنوان استفاده شود، این فیلد را خالی رها کنید."
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:127
+#: src/Pmpr/Module/Subscription/Model/Plan.php:128
 msgid "Duration of active subscription for the user."
 msgstr "مدت زمان فعال بودن اشتراک برای کاربر."
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:131
+#: src/Pmpr/Module/Subscription/Model/Plan.php:132
 msgid ""
 "Display priority and calculation priority in cases of differences between plans."
 msgstr "اولویت نمایش و اولویت محاسباتی در موارد اختلاف بین پلن‌ها."
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:140
+#: src/Pmpr/Module/Subscription/Model/Plan.php:141
 msgid "Rule"
 msgstr "قاعده"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:142
+#: src/Pmpr/Module/Subscription/Model/Plan.php:143
 msgid ""
 "A non-inclusive approach, no matter what rule it is defined in, has priority "
 "over all inclusive approaches."
@@ -230,44 +230,44 @@ msgstr ""
 "یک رویکرد عدم شمول، فارغ از اینکه در چه قاعده‌ای تعریف شود به تمامی رویکرد‌های از "
 "نوع شمول اولویت دارد."
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:145
+#: src/Pmpr/Module/Subscription/Model/Plan.php:146
 msgid "Type"
 msgstr "نوع"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:146
+#: src/Pmpr/Module/Subscription/Model/Plan.php:147
 msgid "Restricted access for non-subscribers"
 msgstr "محدودیت دسترسی برای غیر مشترکین"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:147
+#: src/Pmpr/Module/Subscription/Model/Plan.php:148
 msgid "Providing discounts for subscribers"
 msgstr "ارائه تخفیف برای مشترکین"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:153
+#: src/Pmpr/Module/Subscription/Model/Plan.php:154
 msgid "Coupon"
 msgstr "کد تخفیف"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:157
+#: src/Pmpr/Module/Subscription/Model/Plan.php:158
 #, php-format
 msgid "Set the desired products through %s."
 msgstr "محصولات مورد نظر را از طریق %s تنظیم کنید."
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:159
+#: src/Pmpr/Module/Subscription/Model/Plan.php:160
 msgid "The discount code section"
 msgstr "بخش کد تخفیف"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:167
+#: src/Pmpr/Module/Subscription/Model/Plan.php:168
 msgid "Add to Cart Button Text"
 msgstr "متن دکمه افزودن به سبد خرید"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:168
+#: src/Pmpr/Module/Subscription/Model/Plan.php:169
 msgid "Shown to subscribed users."
 msgstr "به کاربران دارای اشتراک نمایش داده می‌شود."
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:172
+#: src/Pmpr/Module/Subscription/Model/Plan.php:173
 msgid "Alert for none subscribed users"
 msgstr "پیام به کاربرانی که اشتراک ندارند"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:173
+#: src/Pmpr/Module/Subscription/Model/Plan.php:174
 msgid ""
 "Users who do not have a subscription will see this message when viewing any of "
 "the products containing the selected coupon."
@@ -275,121 +275,125 @@ msgstr ""
 "کاربرانی که اشتراک ندارند با مشاهده هر یک از محصولات شامل کد تخفیف انتخاب شده، "
 "این پیام را مشاهده می‌کنند."
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:177
+#: src/Pmpr/Module/Subscription/Model/Plan.php:178
 msgid "Approach"
 msgstr "رویکرد"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:178
+#: src/Pmpr/Module/Subscription/Model/Plan.php:179
 msgid "Include"
 msgstr "شمول"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:178
+#: src/Pmpr/Module/Subscription/Model/Plan.php:179
 msgid "Restrictions apply to selected items"
 msgstr "محدودیت به موارد انتخابی اعمال شود"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:179
+#: src/Pmpr/Module/Subscription/Model/Plan.php:180
 msgid "Exclude"
 msgstr "عدم شمول"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:179
+#: src/Pmpr/Module/Subscription/Model/Plan.php:180
 msgid "Restrictions should not be applied to selected items"
 msgstr "محدودیت به موارد انتخابی اعمال نشود"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:183
+#: src/Pmpr/Module/Subscription/Model/Plan.php:184
 msgid "Target"
 msgstr "هدف"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:184
+#: src/Pmpr/Module/Subscription/Model/Plan.php:185
 msgid "Post Single"
 msgstr "سینگل نوشته"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:185
+#: src/Pmpr/Module/Subscription/Model/Plan.php:186
 msgid "Term Archive"
 msgstr "آرشیو ترم"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:186
+#: src/Pmpr/Module/Subscription/Model/Plan.php:187
 msgid "Post Archive"
 msgstr "آرشیو نوشته"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:187
+#: src/Pmpr/Module/Subscription/Model/Plan.php:188
 msgid "Dynamic"
 msgstr "پویا (به صورت پیوند)"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:196
+#: src/Pmpr/Module/Subscription/Model/Plan.php:197
 msgid "Shrinking the scope of the select (optional)"
 msgstr "کوچکتر کردن دامنه انتخاب (اختیاری)"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:197
+#: src/Pmpr/Module/Subscription/Model/Plan.php:198
 msgid "The selected posts are grouped together by the fields below."
 msgstr "نوشته‌های انتخاب شده توسط فیلد‌های زیر با هم تجمیع می‌شوند."
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:202
+#: src/Pmpr/Module/Subscription/Model/Plan.php:201
 msgid "Post types"
 msgstr "نوع نوشته‌ها"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:208
+#: src/Pmpr/Module/Subscription/Model/Plan.php:207
 msgid "or terms"
 msgstr "یا ترم‌ها"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:218
+#: src/Pmpr/Module/Subscription/Model/Plan.php:213
 msgid "Ordering"
 msgstr "مرتب‌ سازی"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:219
+#: src/Pmpr/Module/Subscription/Model/Plan.php:217
+msgid "Order By"
+msgstr "مرتب‌ شده با"
+
+#: src/Pmpr/Module/Subscription/Model/Plan.php:218
 msgid "Created"
 msgstr "تاریخ ایجاد"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:225
+#: src/Pmpr/Module/Subscription/Model/Plan.php:224
 msgid "Order"
 msgstr "ترتیب"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:226
+#: src/Pmpr/Module/Subscription/Model/Plan.php:225
 msgid "DESC"
 msgstr "نزولی"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:227
+#: src/Pmpr/Module/Subscription/Model/Plan.php:226
 msgid "ASC"
 msgstr "صعودی"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:232
+#: src/Pmpr/Module/Subscription/Model/Plan.php:231
 msgid "Number"
 msgstr "تعداد"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:233
+#: src/Pmpr/Module/Subscription/Model/Plan.php:232
 msgid "Leave empty if you want to select all posts."
 msgstr "برای انتخاب همه نوشته‌ها، خالی رها کنید."
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:243
+#: src/Pmpr/Module/Subscription/Model/Plan.php:237
 msgid "or posts"
 msgstr "یا نوشته‌ها"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:250
+#: src/Pmpr/Module/Subscription/Model/Plan.php:243
 msgid "Shrinking the scope of the rule (optional)"
 msgstr "کوچکتر کردن دامنه قاعده (اختیاری)"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:251
+#: src/Pmpr/Module/Subscription/Model/Plan.php:244
 msgid "The selected terms are grouped together by the fields below."
 msgstr "ترم‌های انتخاب شده توسط فیلد‌های زیر با هم تجمیع می‌شوند."
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:256
+#: src/Pmpr/Module/Subscription/Model/Plan.php:249
 msgid "Taxonomies"
 msgstr "تکسونومی‌ها"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:261
+#: src/Pmpr/Module/Subscription/Model/Plan.php:254
 #: src/Pmpr/Module/Subscription/Setting.php:411
 #: src/Pmpr/Module/Subscription/Setting.php:444
 msgid "Terms"
 msgstr "ترم‌ها"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:268
+#: src/Pmpr/Module/Subscription/Model/Plan.php:261
 msgid "Post Types"
 msgstr "نوع نوشته‌ها"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:273
+#: src/Pmpr/Module/Subscription/Model/Plan.php:266
 msgid "Pattern"
 msgstr "الگو"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:274
+#: src/Pmpr/Module/Subscription/Model/Plan.php:267
 msgid ""
 "By using the asterisk (*), you can create dynamic patterns that can match many "
 "URLs."
@@ -397,60 +401,60 @@ msgstr ""
 "با استفاده از ستاره (*)، می توانید الگوهای پویا ایجاد کنید که می توانند با "
 "بسیاری از URL ها مطابقت داشته باشند."
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:278
+#: src/Pmpr/Module/Subscription/Model/Plan.php:271
 msgid "Apply Restrictions To"
 msgstr "اعمال محدودیت به"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:280
+#: src/Pmpr/Module/Subscription/Model/Plan.php:273
 msgid "Post Content"
 msgstr "محتوای نوشته"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:281
+#: src/Pmpr/Module/Subscription/Model/Plan.php:274
 msgid "Post Attachments"
 msgstr "پیوست‌های نوشته"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:288
+#: src/Pmpr/Module/Subscription/Model/Plan.php:281
 msgid "Access Medium"
 msgstr "رسانه دسترسی"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:289
+#: src/Pmpr/Module/Subscription/Model/Plan.php:282
 msgid "Notice:"
 msgstr "توجه:"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:289
+#: src/Pmpr/Module/Subscription/Model/Plan.php:282
 msgid ""
 "Make sure that the check box related to the downloadable product is selected."
 msgstr "دقت کنید که چک باکس مربوط به دانلودی بودن محصول انتخاب شده باشد."
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:290
+#: src/Pmpr/Module/Subscription/Model/Plan.php:283
 msgid "View Attachment"
 msgstr "مشاهده پیوست"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:291
+#: src/Pmpr/Module/Subscription/Model/Plan.php:284
 msgid "Download Attachment"
 msgstr "دانلود پیوست"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:297
+#: src/Pmpr/Module/Subscription/Model/Plan.php:290
 msgid "Feature"
 msgstr "ویژگی‌"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:301
+#: src/Pmpr/Module/Subscription/Model/Plan.php:294
 msgid "Text"
 msgstr "متن"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:393
+#: src/Pmpr/Module/Subscription/Model/Plan.php:389
 #, php-format
 msgid "%s Year"
 msgid_plural "%s Years"
 msgstr[0] "%s سال"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:396
+#: src/Pmpr/Module/Subscription/Model/Plan.php:392
 #, php-format
 msgid "%s Month"
 msgid_plural "%s Months"
 msgstr[0] "%s ماه"
 
-#: src/Pmpr/Module/Subscription/Model/Plan.php:406
+#: src/Pmpr/Module/Subscription/Model/Plan.php:402
 #: src/Pmpr/Module/Subscription/Setting.php:265
 msgid "Buy Now!"
 msgstr "الان بخرید!"
@@ -631,8 +635,8 @@ msgstr "مقدار"
 
 #: src/Pmpr/Module/Subscription/Setting.php:195
 #: src/Pmpr/Module/Subscription/Setting.php:214
-#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:61
-#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:117
+#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:64
+#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:121
 msgid "Library"
 msgstr "کتابخانه"
 
@@ -1006,55 +1010,54 @@ msgstr "آیتمی که می‌خواهید حذف کنید وجود ندارد.
 msgid "To delete item from library, you need to login or register first."
 msgstr "برای حذف آیتم از کتابخانه شما ابتدا باید وارد حساب خود شوید."
 
-#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:68
+#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:65
+msgid "Logout"
+msgstr "خروج"
+
+#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:72
 #, php-format
 msgid "The {%s} subscription is active for you and is valid until {%s}."
 msgstr "اشتراک {%s} برای شما فعال است و تا {%s} معتبر است."
 
-#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:73
+#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:77
 #, php-format
 msgid "You do not have an active subscription, %s."
 msgstr "شما هیچ اشتراک فعالی ندارید، %s."
 
-#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:74
+#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:78
 msgid "click here to see plans"
 msgstr "برای مشاهده پلن‌ها اینجا را کلیک کنید"
 
-#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:95
+#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:99
 #, php-format
 msgid "Subscription: %s</br>Expire Date: %s"
 msgstr "اشتراک:‌%s <br> تاریخ اعتبار: %s"
 
-#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:103
+#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:107
 msgid "You do not have an active subscription"
 msgstr "شما هیچ اشتراک فعالی ندارید"
 
-#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:121
+#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:125
 msgid "No item has been added yet."
 msgstr "هنوز آیتمی اضافه نشده است."
 
-#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:124
+#: src/Pmpr/Module/Subscription/Woocommerce/Account.php:128
 msgid "Related to"
 msgstr "مرتبط با"
 
-#: src/Pmpr/Module/Subscription/Woocommerce/Cart.php:49
+#: src/Pmpr/Module/Subscription/Woocommerce/Cart.php:48
 #, php-format
 msgid "Sorry, \"%s\" is not purchasable by users that already subscribed."
 msgstr "متاسفانه \"%s\" قابل خرید توسط کاربرانی که اشتراک فعال دارند نیست."
 
-#: src/Pmpr/Module/Subscription/Woocommerce/Cart.php:52
+#: src/Pmpr/Module/Subscription/Woocommerce/Cart.php:51
 msgid "Sorry, you can not subscribe to more than one plan."
 msgstr "متاسفانه شما‌ نمی‌توانید در بیشتر از یک پلن مشترک شوید."
 
-#: src/Pmpr/Module/Subscription/Woocommerce/Cart.php:58
+#: src/Pmpr/Module/Subscription/Woocommerce/Cart.php:57
 #, php-format
 msgid "Sorry, \"%s\" is not an active plan."
 msgstr "متاسفانه \"%s\" یک پلن فعال نیست."
-
-#: src/Pmpr/Module/Subscription/Woocommerce/Cart.php:63
-#, php-format
-msgid "Sorry, \"%s\" is not purchasable by unregistered users."
-msgstr "متاسفانه \"%s\" قابل خرید توسط کاربرانی که ثبت‌نام نکرده‌اند نیست."
 
 #: src/Pmpr/Module/Subscription/Woocommerce/Order.php:62
 #, php-format
@@ -1065,11 +1068,14 @@ msgstr "کاربر با موفقیت در %s مشترک شد."
 msgid "User already subscribed."
 msgstr "کاربر پیش از این مشترک شده است."
 
-#: src/Pmpr/Module/Subscription/Woocommerce/Setting.php:50
+#: src/Pmpr/Module/Subscription/Woocommerce/Setting.php:54
 msgid ""
 "Carts containing content subscription plans cannot be paid for by guest users."
 msgstr ""
 "سبد‌های خرید حاوی پلن‌های اشتراک محتوا،‌ قابل پرداخت توسط کاربران مهمان نیستند."
+
+#~ msgid "Sorry, \"%s\" is not purchasable by unregistered users."
+#~ msgstr "متاسفانه \"%s\" قابل خرید توسط کاربرانی که ثبت‌نام نکرده‌اند نیست."
 
 #~ msgid ""
 #~ "Because the content subscription module is active, it is not possible to "
@@ -1107,9 +1113,6 @@ msgstr ""
 
 #~ msgid "Posts"
 #~ msgstr "نوشته‌ها"
-
-#~ msgid "Order By"
-#~ msgstr "مرتب سازی"
 
 #~ msgid "Limit"
 #~ msgstr "محدودیت"
